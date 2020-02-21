@@ -1,0 +1,36 @@
+h1 {
+  font-size: 5vw;
+}
+
+p {
+  font-size: 3vw;
+}
+
+section {
+  position: relative;
+  padding-bottom: 10vw;
+}
+
+section:nth-of-type(even) {
+  background-color: rgba(255, 0, 0, 0.15);
+}
+
+.box {
+  position: absolute;
+  height: 15vw;
+  width: 15vw;
+  background: red;
+}
+
+.circles-wrapper {
+  display: flex;
+  width: 80vw;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.circle {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 100%;
+}
