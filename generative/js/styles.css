@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+div {
+  position: fixed;
+  transition: 400ms all ease;
+  will-change: transform, width, height;
+}
+
+p{
+  position: fixed;
+  font-family: sans-serif;
+}
